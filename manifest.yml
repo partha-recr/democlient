@@ -1,0 +1,7 @@
+---
+applications:
+- name: client-service
+  memory: 2G  
+  path: build/libs/democlient-0.0.1-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  
